@@ -3,7 +3,7 @@ primary_region = "phx"
 
 [http_service]
 auto_start_machines = true
-auto_stop_machines = never
+auto_stop_machines = 'never'
 force_https = true
 internal_port = 8_080
 min_machines_running = 0
